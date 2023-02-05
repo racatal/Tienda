@@ -1,24 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <title>Tienda en Linea</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pagina de la leccion 2" />
+        <meta name="keywords" content="html5, css, web, fidelitas" />
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>
-            <h1>Home</h1>
-            <p>Bienvenido a la tienda en linea...</p>
-        </div>
+        <!-- esta etiqueta indica al navegador que es un encabezado -->
+        <header id="encabezado">
+            <h1>Tienda en Línea</h1>
+            <br/>
+        </header>
+        <!-- esta etiqueta indica al navegador que es un nav -->
+        <nav id="menu">
+            <a href="ejemplo9.html"> Atrás </a>
+            <a href="index.html"> Home </a>
+            <a href="ejemplo2.html"> Adelante </a>
+        </nav>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit integer vestibulum, congue aliquet euismod gravida est nec at enim risus ac, metus ridiculus pulvinar erat vitae hac felis netus. Suscipit curabitur viverra rutrum conubia diam pretium cum est iaculis a sagittis, purus gravida ligula arcu dignissim in hendrerit lacus semper sodales, commodo enim pharetra facilisi vulputate mus blandit nostra cras libero. Ad mauris vivamus tincidunt aenean sociis nullam litora enim, parturient nascetur nisl dictum tellus ullamcorper blandit himenaeos quisque, a varius faucibus platea suspendisse dui nostra. Elementum mi risus feugiat ultrices sodales vitae dignissim ad, aliquet turpis lobortis tortor platea class duis, auctor ullamcorper penatibus ultricies viverra ridiculus cubilia.</p>
-        <p>Egestas elementum dignissim felis est volutpat eleifend tellus per ridiculus, nibh morbi imperdiet quam mauris mattis vestibulum phasellus lobortis aliquam, cras vitae venenatis sem viverra molestie mollis ultrices. Justo proin id convallis etiam morbi dictumst montes senectus, dictum et pretium volutpat potenti quis augue lobortis, cum nascetur mollis nec donec mus lectus. Tincidunt platea semper faucibus dictum quam eu ante, libero non luctus leo erat egestas, dignissim ornare lacus hac odio eros. Phasellus curae placerat aliquet accumsan sollicitudin nisi laoreet scelerisque, aenean euismod leo fames dui inceptos nullam molestie dapibus, curabitur tempor duis massa ut nostra nascetur.</p>
-        <p>Bibendum gravida nascetur ridiculus malesuada massa pellentesque at, in condimentum potenti varius cras eget vel, purus netus posuere hendrerit sociis proin. Sed porta fringilla rhoncus eu ultrices cras sociosqu a, auctor varius rutrum posuere dapibus nulla pulvinar, nunc felis lectus risus aenean cubilia fusce. Elementum dapibus feugiat nostra penatibus potenti orci rhoncus praesent tincidunt, vehicula primis nullam platea lobortis metus blandit suspendisse senectus, arcu gravida enim vitae tellus nisi vulputate turpis. Dis phasellus vel vestibulum vitae augue aliquam dignissim, curabitur molestie rutrum inceptos netus primis cursus ut, vulputate nulla tristique magna suscipit integer.</p>
-        
-        <br/>
-        <br/>
-        <br/>
-        
-        <p>Ultima linea</p>
+        <aside id="barraLateral">
+            <h2>Productos más vendidos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit integer vestibulum, congue aliquet euismod gravida est nec at enim risus ac, metus ridiculus pulvinar erat vitae hac felis netus. Suscipit curabitur viverra rutrum conubia diam pretium cum est iaculis a sagittis, purus gravida ligula arcu dignissim in hendrerit lacus semper sodales, commodo enim pharetra facilisi vulputate mus blandit nostra cras libero. Ad mauris vivamus tincidunt aenean sociis nullam litora enim, parturient nascetur nisl dictum tellus ullamcorper blandit himenaeos quisque, a varius faucibus platea suspendisse dui nostra. Elementum mi risus feugiat ultrices sodales vitae dignissim ad, aliquet turpis lobortis tortor platea class duis, auctor ullamcorper penatibus ultricies viverra ridiculus cubilia.</p>
+        </aside>
+        <section id="contenido">
+            <h2>Articulos Principales</h2>
+            <article>
+                <header>Asus Vivobook</header>
+                <p class="descripcion"><cite>Lorem ipsum dolor sit amet consectetur adipiscing elit</cite> integer vestibulum, congue aliquet euismod gravida est nec at enim risus ac, metus ridiculus pulvinar erat vitae hac felis netus. Suscipit curabitur viverra rutrum conubia diam pretium cum est iaculis a sagittis, purus gravida ligula arcu dignissim in hendrerit lacus semper sodales, commodo enim pharetra facilisi vulputate mus blandit nostra cras libero. Ad mauris vivamus tincidunt aenean sociis nullam litora enim, parturient nascetur nisl dictum tellus ullamcorper blandit himenaeos quisque, a varius faucibus platea suspendisse dui nostra. Elementum mi risus feugiat ultrices sodales vitae dignissim ad, aliquet turpis lobortis tortor platea class duis, auctor ullamcorper penatibus ultricies viverra ridiculus cubilia.</p>              
+                <figure>
+                    <img src="Folder/MicrosoftTeams-image.png" alt="Asus Vivobook" width="200" />
+                    <figcaption>Imagen con fines ilustrativos</figcaption>
+            </article>
+            <article>       
+                <header>Alienware ATD 900</header>
+                <p class="descripcion"><cite>Lorem ipsum dolor sit amet consectetur adipiscing elit</cite> integer vestibulum, congue aliquet euismod gravida est nec at enim risus ac, metus ridiculus pulvinar erat vitae hac felis netus. Suscipit curabitur viverra rutrum conubia diam pretium cum est iaculis a sagittis, purus gravida ligula arcu dignissim in hendrerit lacus semper sodales, commodo enim pharetra facilisi vulputate mus blandit nostra cras libero. Ad mauris vivamus tincidunt aenean sociis nullam litora enim, parturient nascetur nisl dictum tellus ullamcorper blandit himenaeos quisque, a varius faucibus platea suspendisse dui nostra. Elementum mi risus feugiat ultrices sodales vitae dignissim ad, aliquet turpis lobortis tortor platea class duis, auctor ullamcorper penatibus ultricies viverra ridiculus cubilia.</p>              
+                <figure>
+                    <img src="Folder/MicrosoftTeams-image (1).png" alt="Alienware ATD 900" width="200" />
+                    <figcaption>Mas vendido</figcaption>
+                </figure>
+            </article>
+            <article>
+                <header>Impresora 3D</header>
+                <p class="descripcion"><cite>Lorem ipsum dolor sit amet consectetur adipiscing elit</cite> integer vestibulum, congue aliquet euismod gravida est nec at enim risus ac, metus ridiculus pulvinar erat vitae hac felis netus. Suscipit curabitur viverra rutrum conubia diam pretium cum est iaculis a sagittis, purus gravida ligula arcu dignissim in hendrerit lacus semper sodales, commodo enim pharetra facilisi vulputate mus blandit nostra cras libero. Ad mauris vivamus tincidunt aenean sociis nullam litora enim, parturient nascetur nisl dictum tellus ullamcorper blandit himenaeos quisque, a varius faucibus platea suspendisse dui nostra. Elementum mi risus feugiat ultrices sodales vitae dignissim ad, aliquet turpis lobortis tortor platea class duis, auctor ullamcorper penatibus ultricies viverra ridiculus cubilia.</p>              
+                <figure>
+                    <img src="Folder/MicrosoftTeams-image (2).png" alt="Impresora 3D" width="200" />
+                    <figcaption>Mas economico</figcaption>
+                </figure>
+            </article>
+            <br>
+            <br>
+            <br>
+            <article>
+                <h2>Lineas de Productos</h2>
+                <table border="0">
+                    <thead id="encabezadoTabla">
+                        <tr>
+                            <th>Código</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaResumen">
+                        <tr>
+                            <td>1</td>
+                            <td>Teclados</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Portatiles</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Baterias</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Perifericos</td>
+                        </tr>
+
+                        <tr>
+                            <td>5</td>
+                            <td>headsets</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Monitores</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+        <br>
+        <footer id="piePagina">
+            Derechos reservados &COPY; 2023 <address class="lineaDireccion">Tibas, Colima</address> <address class="lineaDireccion">Tel: 84473381</address>
+        </footer>
     </body>
 </html>
