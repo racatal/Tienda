@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tienda en Linea</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pagina de la leccion 2" />
+        <meta name="keywords" content="html5, css, web, fidelitas" />
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header id="encabezado">
+            <h1>Tienda en Línea</h1>
+            <br/>
+        </header>
+        <!-- esta etiqueta indica al navegador que es un nav -->
+        <nav id="menu">
+            <a href="ejemplo9.html"> Atrás </a>
+            <a href="index.html"> Home </a>
+            <a href="ejemplo2.html"> Adelante </a>
+        </nav>
+        <aside id="barraLateral">
+            <h2>Productos más vendidos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit integer vestibulum, congue aliquet euismod gravida est nec at enim risus ac, metus ridiculus pulvinar erat vitae hac felis netus. Suscipit curabitur viverra rutrum conubia diam pretium cum est iaculis a sagittis, purus gravida ligula arcu dignissim in hendrerit lacus semper sodales, commodo enim pharetra facilisi vulputate mus blandit nostra cras libero. Ad mauris vivamus tincidunt aenean sociis nullam litora enim, parturient nascetur nisl dictum tellus ullamcorper blandit himenaeos quisque, a varius faucibus platea suspendisse dui nostra. Elementum mi risus feugiat ultrices sodales vitae dignissim ad, aliquet turpis lobortis tortor platea class duis, auctor ullamcorper penatibus ultricies viverra ridiculus cubilia.</p>
+        </aside>
+
+        <section id="contenido">
+            <header>
+                <h2>Ejemplo de Formularios</h2>
+            </header>
+            <form action="#">                
+                <label>button </label><input type="button" value="Confirmar" id="button" /><br/>  <!--boton-->           
+                <label>checkbox </label> <input type="checkbox" id="checkbox" checked/>Terminos y condiciones<br/> <!--selecciones, mas de uno a la vez-->    <!--checked es para que este marcada desde que carga-->            
+                <label>color </label><input type="color" id="color" value="#ffff00" /><br/>  <!--usuario puede seleccionar color-->             
+                <label>text </label><input type="text" id="text" placeholder="ejemplo de place holder" size="30"><br/>  <!--introducir texto-->              
+                <label>textarea </label><textarea id="Ejemplo" rows="5" cols="30"></textarea><br/> <!--no input, propia etiqueta-->               
+                <label>date </label><input type="date" name="date" min="1960-01-01" max="2037-12-31"><br/> <!--fecha-->               
+                <label>datetime-local </label><input type="datetime-local" name="datetime-local"><br/> <!--fecha y hora-->               
+                <label>time </label><input type="time" name="time"><br/> <!--hora-->               
+                <label>email </label><input type="email" name="email" placeholder="a-z@a-z.xxx"><br/> <!--insertar email-->               
+                <label>file </label><input type="file" name="file" accept="image/png,image/jpeg"><br/> <!--seleccionar archivo que pueda ser subido por el usuario-->               
+                <label>hidden </label><input type="hidden" id="hidden" value="sdfdsf-sdfdsf-fjghj565-65245"><br/> <!--campo oculto, no se ve pero permite almacenar un valor-->               
+                <label>search </label><input type="search" name="search" placeholder="criterio de busqueda"><br/> <!--busqueda-->              
+                <label>tel </label><input type="tel" name="tel" placeholder=""><br/> <!--telefonos-->               
+                <label>url </label><input type="url" name="url" placeholder=""><br/> <!--links-->               
+                <label>week </label><input type="week" name="week"><br/> <!--seleccionar semana del año-->                
+                <label>month </label><input type="month" name="month"><br/> <!--seleccionar mes del año-->               
+                <label>number </label><input type="number" name="number" value="50" min="10" max="60"><br/> <!--solo numeros-->               
+                <label>password </label><input type="password" name="password"><br/> <!--contraseña, el texto se ve secreto-->               
+                <label>radio </label>Mañana<input type="radio" name="horario" value="1"><br/> <!--seleccionar un unico elemento, contrario a checkbox, name debe ser igual para TODOS-->               
+                <label>radio </label>Tarde<input type="radio" name="horario" value="2"><br/> <!--seleccionar un unico elemento, contrario a checkbox, name debe ser igual para TODOS-->               
+                <label>radio </label>Noche<input type="radio" name="horario" value="3"><br/> <!--seleccionar un unico elemento, contrario a checkbox, name debe ser igual para TODOS-->               
+                <input type="range" value="24" min="1" max="100"                       
+                       oninput="this.nextElementSibling.value = this.value"> <!--rango (barra seleccionadora)-->               
+                <output>24</output><br/>                
+                <label>reset </label><input type="reset" name="reset" value="Limpiar"><br/> <!--los valores se limpian a default, solo para inputs del mismo form-->               
+                <label>Submit </label><input type="submit" value="Submit"><br/> <!--enviar todos los datos llenados-->        
+            </form>
+        </section>
+        <footer id="piePagina">
+            Derechos reservados &COPY; 2023 <address class="lineaDireccion">Tibas, Colima</address> <address class="lineaDireccion">Tel: 84473381</address></footer>
+    </body>
+</html>
