@@ -3,16 +3,11 @@
     <head>
         <title>TechShop</title>
         <meta charset="UTF-8">
+        <link href="/css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <!--       <div>Saludos</div> 
-               <p th:text="${MensajeSaludo}"></p>-->
-        <!--   <h1>Un cliente</h1>
-           <p>Nomre: <span th:text="${cliente.nombre}"></span></p>
-           <p>Apellidos: <span th:text="${cliente.apellidos}"></span></p>
-           <p>Correo <span th:text="${cliente.correo}"></span></p>
-           <p>Telefono <span th:text="${cliente.telefono}"></span></p>-->
-        <h1>Clientes</h1>
+        <header th:href="layout/plantilla :: header"/>
+        <h2>Clientes</h2>
         <table border="1">
             <thead>
             <th>Nombre</th>
@@ -26,6 +21,8 @@
                     <td th:text="${apellidos.nombre}"></td>
                     <td th:text="${correo.nombre}"></td>
                     <td th:text="${telefono.nombre}"></td>                    
+                    <td th:href="@{/modificarCliente} +  ${cliente.idCliente">Modificar</a></td>                    
+                    <td th:href="@{/eliminarCliente} +  ${cliente.idCliente">Eliminar</a></td>                                                          
                 </tr>
             </tbody>
         </table>
