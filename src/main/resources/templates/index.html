@@ -22,9 +22,9 @@
             </thead>
             <tbody>
                 <tr th:each="cliente : ${clientes}">
-                    <td>th:text="${cliente.nombre}"></td>
-                    <td>th:text="${apellidos.nombre}"></td>
-                    <td>th:text="${correo.nombre}"></td>
+                    <td th:text="${cliente.nombre}"></td>
+                    <td th:text="${apellidos.nombre}"></td>
+                    <td th:text="${correo.nombre}"></td>
                     <td th:text="${telefono.nombre}"></td>                    
                 </tr>
             </tbody>
